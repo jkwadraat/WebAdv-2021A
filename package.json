@@ -1,24 +1,24 @@
 {
-  "name": "1ITF_Sass_BS4_project",
-  "version": "1.0.1",
-  "description": "1ITF Sass - Bootstrap 4 project",
+  "name": "WebAdv-2021A",
+  "version": "",
+  "description": "1ITF - Webdesign Advanced - Exam",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pverhaert/1ITF_Sass_BS4_project.git"
+    "url": "git+https://github.com/jkwadraat/WebAdv-2021A.git"
   },
   "keywords": [
     "Thomas More Kempen",
-    "Sass",
-    "Bootstrap 4",
-    "1ITF"
+    "1ITF",
+    "Webdesign Advanced",
+    "Exam"
   ],
-  "author": "Patrick Verhaert",
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pverhaert/1ITF_Sass_BS4_project/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/pverhaert/1ITF_Sass_BS4_project#readme",
+  "homepage": "https://github.com/jkwadraat/WebAdv-2021A#readme",
   "scripts": {
     "watch": "gulp",
     "zip": "gulp zip"
