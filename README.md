@@ -5,7 +5,7 @@
 - Run `npm install`
 - Start the SASS compiler and browser-sync with the command `gulp` or `npm run watch`
 
-## Upload exam to Canvas
+## Upload exam to Canvas (on June 16th, 2021 = when your exam is finished!)
 
 - Open _gulpfile.js_
 - Replace, on line 2, the value for the variable `name` with your class, surname and name: e.g. `1ITF01_Doe_John`
