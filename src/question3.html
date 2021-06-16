@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/style.css" />
+        <title>Question 3: Order tickets (ES6/jQuery)</title>
+    </head>
+    <body>
+        <main class="container">
+            <h1>Order your tickets (ES6/jQuery)</h1>
+            <div class="my-3">
+                <div class="form-group">
+                    <label for="normal" id="normalLabel">Normal tickets: <span id="normalCount">0</span> x €15</label>
+                    <input type="range" min="0" max="4" value="0" class="form-control-range" id="normal" />
+                </div>
+                <div class="form-group">
+                    <label for="combi" id="combiLabel">Combi tickets: <span id="combiCount">0</span> x €25</label>
+                    <input type="range" min="0" max="4" value="0" class="form-control-range" id="combi" />
+                </div>
+            </div>
+            <div class="alert alert-danger" id="exceeded">
+                <p>
+                    You have exceeded the maximum amount of 4 tickets!<br />
+                    The sliders are switched back to their previous state.
+                </p>
+            </div>
+            <div class="alert alert-primary" id="yourOrder">
+                <h5>Your order</h5>
+                <p>...</p>
+            </div>
+        </main>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
